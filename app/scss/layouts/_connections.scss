@@ -1,0 +1,104 @@
+.connections {
+    .connections-hero {
+        margin-bottom: 55px;
+
+        @media screen and (max-width: $small) {
+            margin-bottom: 40px;
+        }
+        &__heading {
+            .container {
+                max-width: 800px;
+
+                h1 {
+                    margin-bottom: 40px;
+
+                    @media screen and (max-width: $small) {
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+        &__img {
+            @media screen and (max-width: $small) {
+                position: relative;
+                left: calc(-5% - 16px);
+                width: calc(110% + 32px);
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .connections-text {
+        .container {
+            max-width: 800px;
+        }
+        &__intro {
+            p {
+                line-height: 40px;
+
+                @media screen and (max-width: $small) {
+                    font-size: 14px;
+                    line-height: 25px;
+                }
+            }
+        }
+        &__form {
+            margin-bottom: 100px;
+            
+            @media screen and (max-width: $small) {
+                margin-bottom: 80px;
+            }
+            .checkbox-group, .textarea, .radio-group {
+                > label, legend {
+                    font-size: 30px !important;
+                    line-height: 34px !important;
+                    font-weight: bold !important;
+                    color: $orange !important;
+                    margin-top: 80px !important;
+                    margin-bottom: 30px !important;
+                    display: block;
+                    top: 0px;
+
+                    @media screen and (max-width: $medium) {
+                        font-size: 25px;
+                        line-height: 30px;
+                    }
+                    @media screen and (max-width: $small) {
+                        font-size: 22px;
+                        line-height: 27px;
+                        margin-top: 50px !important;
+                        margin-bottom: 25px !important;
+                    }
+                }
+            }
+            .textarea {
+                textarea {
+                    margin-bottom: 0px;
+                }
+            }
+            .inputs {
+                margin-top: 80px;
+
+                @media screen and (max-width: $small) {
+                    margin-top: 50px;
+                }
+            }
+            input[type="submit"] {
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+.page-template-connections {
+    .connections-text {
+        &__form {
+            margin-top: -40px;
+
+            @media screen and (max-width: $small) {
+                margin-top: -30px;
+            }
+        }
+    }
+}

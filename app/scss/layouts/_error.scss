@@ -1,0 +1,50 @@
+.error-page {
+    .error {
+        margin-bottom: 80px;
+        text-align: center;
+
+        @media screen and (max-width: $medium) {
+            margin-bottom: 65px;
+        }
+        @media screen and (max-width: $small) {
+            margin-bottom: 55px;
+        }
+        .container {
+            max-width: 800px;
+        }
+        h1 {
+            font-size: 70px;
+            line-height: 85px;
+            margin-bottom: 40px;
+            text-align: left;
+
+            @media screen and (max-width: $medium) {
+                font-size: 50px;
+                line-height: 60px;
+                margin-bottom: 30px;
+            }
+            @media screen and (max-width: $small) {
+                font-size: 40px;
+                line-height: 50px;
+                margin-bottom: 20px;
+            }
+        }
+        p {
+            font-size: 20px;
+            line-height: 30px;
+            text-align: left;
+
+            @media screen and (max-width: $small) {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+        .btn {
+            margin-top: 10px;
+
+            @media screen and (max-width: $small) {
+                margin-top: 0px;
+            }
+        }
+    }
+}

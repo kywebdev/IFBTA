@@ -1,0 +1,94 @@
+.video-posts {
+    .row {
+        margin-left: -25px;
+        margin-right: -25px;
+    }
+    .col-md-4, .col-md-6, .col-12 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+.col-12 {
+    .video-post {
+        &__title {
+            font-size: 28px;
+            line-height: 34px;
+
+            @media screen and (max-width: $medium) {
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+        &__date {
+            font-size: 16px;
+            line-height: 27px;
+
+            @media screen and (max-width: $medium) {
+                font-size: 14px;
+                line-height: 25px;
+            }
+        }
+        &__snippet {
+            p {
+                font-size: 16px;
+                line-height: 22px;
+
+                @media screen and (max-width: $medium) {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+.video-post {
+    margin-bottom: 70px;
+
+    @media screen and (max-width: $small) {
+        margin-bottom: 60px;
+    }
+    &__video {
+        margin-bottom: 20px;
+
+        &.--yt {
+            @include aspect-ratio(16, 9);
+
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &__title {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 500;
+        color: $navy;
+        display: inline-block;
+        transition: .2s ease-in-out;        
+    }
+    a {
+        &.video-post__title {
+            &:hover, &:focus {
+                color: darken($orange, 10%);
+            }
+        }
+    }
+    &__date {
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: bold;
+        color: $navy;
+        display: block;
+        margin-top: 3px;
+    }
+    &__snippet {
+        margin-top: 15px;
+
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            color: $blue-gray;
+        }
+    }
+}

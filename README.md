@@ -1,1 +1,22 @@
-# IFBTA-github
+# International Food and Beverage Technology Association (IFBTA)
+- Live site: [https://www.ifbta.org](https://www.ifbta.org)
+
+## List of templates
+
+- [Home](https://kywebdev.com/IFBTA)
+- [Our Events](https://kywebdev.com/IFBTA/events.php)
+    - [Event Details](https://kywebdev.com/IFBTA/event-details.php)
+- [Chapters](https://kywebdev.com/IFBTA/chapters.php)
+    - [Open a Chapter](https://kywebdev.com/IFBTA/open-chapter.php)
+- [Membership](https://kywebdev.com/IFBTA/membership.php)
+- [Partners](https://kywebdev.com/IFBTA/partners.php)
+- [News & Resources](https://kywebdev.com/IFBTA/news-resources.php)
+    - [News Details](https://kywebdev.com/IFBTA/post.php)
+- [Certification](https://kywebdev.com/IFBTA/certification.php)
+- [Contact](https://kywebdev.com/IFBTA/contact.php)
+- [Connections](https://kywebdev.com/IFBTA/connections.php)
+- [NYSRA](https://kywebdev.com/IFBTA/nysra.php)
+- [TRA](https://kywebdev.com/IFBTA/tra.php)
+- [SCRLA](https://kywebdev.com/IFBTA/scrla.php)
+- [Downloads](https://kywebdev.com/IFBTA/downloads.php)
+- [404](https://kywebdev.com/IFBTA/404.php)

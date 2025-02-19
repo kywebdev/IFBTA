@@ -1,0 +1,42 @@
+.modal-dialog {
+    max-width: none;
+    margin: 0px;
+    min-height: 100vh;
+
+    .modal-content {
+        min-height: 100vh;
+        border: none;
+        border-radius: 0px;
+
+        .modal-header {
+            border-bottom: none;
+            padding: 40px;
+
+            .btn-close {
+                background-color: $navy;
+                opacity: 1;
+                width: 32px;
+                height: 32px;
+                background-image: url('../img/close.svg');
+                background-size: 22px;
+                border-radius: 0px;
+                box-shadow: none;
+                transition: .2s ease-in-out;
+
+                &:hover, &:focus {
+                    background-color: $orange;
+                }
+            }
+        }
+        .modal-body {
+            padding: 60px 0px;
+
+            @media screen and (max-width: $medium) {
+                padding: 0px 0px 40px;
+            }
+            @media screen and (max-width: $small) {
+                padding: 0px 0px 20px;
+            }
+        }
+    }
+}

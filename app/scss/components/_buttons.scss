@@ -1,0 +1,28 @@
+.btn {
+    border-radius: 0px;
+    padding: 15px 20px;
+    font-family: $raleway;
+    font-weight: bold;
+    
+    &:focus {
+        box-shadow: none;
+    }
+    &.--orange {
+        background-color: $orange;
+        color: $white;
+
+        &:hover, &:focus {
+            background-color: darken($orange, 10%);
+        }
+    }
+    &.--white {
+        background-color: $white;
+        color: $navy;
+        border: 1px solid $navy;
+
+        &:hover, &:focus {
+            background-color: $navy;
+            color: $white;
+        }
+    }
+}

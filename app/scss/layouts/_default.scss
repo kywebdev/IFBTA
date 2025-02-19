@@ -1,0 +1,134 @@
+.page-template-default {
+    h2 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-bottom: 40px;
+
+        @media screen and (max-width: $small) {
+            font-size: 20px;
+            line-height: 32px;
+            margin-bottom: 30px;
+        }
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: $small) {
+            font-size: 18px;
+            line-height: 28px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+    }
+    .hero {
+        .container {
+            max-width: 800px;
+
+            h1 {
+                margin-bottom: 40px;
+
+                @media screen and (max-width: $small) {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+    .page-content {
+        margin-bottom: 85px;
+        
+        @media screen and (max-width: $small) {
+            margin-bottom: 70px;
+        }
+        &__img {
+            margin-bottom: 50px;
+            text-align: center;
+
+            @media screen and (max-width: $small) {
+                position: relative;
+                left: calc(-5% - 16px);
+                width: calc(110% + 32px);
+                margin-bottom: 40px;
+            }
+            img {
+                max-width: 100%;
+
+                @media screen and (max-width: $small) {
+                    width: 100%;
+                }
+            }
+        }
+        &__text {
+            margin-bottom: 50px;
+
+            @media screen and (max-width: $small) {
+                margin-bottom: 40px;
+            }
+            .container {
+                max-width: 800px;
+            }
+            p {
+                line-height: 40px;
+
+                @media screen and (max-width: $small) {
+                    line-height: 29px;
+                }
+            }
+            ul, ol {
+                li {
+                    margin-bottom: 20px;
+                    font-weight: 600;
+                    color: $blue-gray;
+
+                    @media screen and (max-width: $small) {
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        &__video {
+            margin-bottom: 50px;
+
+            @media screen and (max-width: $small) {
+                position: relative;
+                left: calc(-5% - 16px);
+                width: calc(110% + 32px);
+                margin-bottom: 40px;
+            }
+            .container {
+                max-width: 930px;
+            }
+        }
+        &__buttons {
+            margin-bottom: 30px;
+            
+            @media screen and (max-width: $small) {
+                margin-bottom: 25px;
+            }
+            .container {
+                max-width: 800px;
+            }
+            h2 {
+                font-weight: normal;
+            }
+            &__inner {
+                .btn {
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+
+                    @media screen and (max-width: $small) {
+                        width: 100%;
+                        margin-right: 0px;
+                        margin-bottom: 15px;
+                    }
+                    &:last-of-type {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
